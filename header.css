@@ -1,0 +1,96 @@
+/* Header */
+.header {
+  background: #1e90ff;
+  color: white;
+  padding: 12px 24px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  
+}
+.header .logo {
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.header .logo svg, .header .logo img {
+  width:110px;
+  height:auto;
+}
+.header .logo-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+.header nav {
+  flex-grow:1;
+  margin-left:50px;
+}
+.header nav ul {
+  display:flex;
+  list-style:none;
+  gap:30px;
+  font-weight:600;
+  font-size: 1.1rem;
+}
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+.header .admin {
+  font-weight: 600;
+  position: relative; /* Tambahan untuk dropdown */
+}
+
+/* Dropdown Admin / Logout */
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-menu .admin-name {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  min-width: 100px; /* Tambahan untuk stabilitas */
+}
+
+.nav-menu .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  min-width: 170px;
+  z-index: 1001;
+}
+
+.nav-menu li:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+    nav a.active, nav a:hover {
+        border-bottom: 3px solid #aaddff;
+    }
+

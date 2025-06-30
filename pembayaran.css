@@ -1,0 +1,13 @@
+
+  body {
+    background: linear-gradient(135deg, #7ec6ff 0%, #cde8ff 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  a {
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+    }
+    a:hover, button:hover {
+      opacity: 0.85;
+    }

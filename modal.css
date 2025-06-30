@@ -1,0 +1,169 @@
+/* Modal styles */
+.modal-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+.modal-backdrop.active {
+  display: flex;
+}
+.modal {
+  background: white;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  position: relative;
+}
+.modal h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: #187bff;
+}
+.modal .close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 1.4rem;
+  background: none;
+  border:none;
+  cursor: pointer;
+  color: #888;
+  font-weight: 700;
+}
+.modal .close-btn:hover {
+  color: #555;
+}
+.modal .modal-content p {
+  margin: 8px 0;
+}
+.modal .modal-label {
+  font-weight: 600;
+  color: #333;
+}
+
+
+/*mengahpus di packet turbo dan paket reguler*/
+.modal {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modal-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-buttons button,
+.modal-buttons a {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #d33;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.modal-buttons button:hover,
+.modal-buttons a:hover {
+  background: #b22;
+}
+.modal-buttons button {
+  background: #aaa;
+}
+.modal-buttons button:hover {
+  background: #888;
+}
+
+
+/*yang baru modal*/
+.modal-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* semi transparan */
+  z-index: 999;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-backdrop.active {
+  display: flex; /* Flexbox: center modal-box secara otomatis */
+}
+
+.modal-box {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border: 2px solid #1565d8;
+  text-align: center; /* Center isi di dalam popup */
+}
+
+
+.modal-buttons {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center; /* Center tombol */
+  gap: 1rem; /* Jarak antar tombol */
+}
+
+.modal-buttons a,
+.modal-buttons button {
+  padding: 0.5rem 1.2rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-cancel {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-cancel:hover {
+  background-color: #5a6268;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+
