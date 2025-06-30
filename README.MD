@@ -24,9 +24,13 @@ Untuk masuk ke dalam sistem Laundry Go, gunakan kredensial berikut:
 ---
 
 ## 👥 Anggota Kelompok
-- I Nyoman Ari Parwata &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`(2301010002)`  
-- Anak Agung Rama Dwi Saputra &nbsp;`(2301010021)`  
-- I Komang Swastika &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`(2301010057)`
+
+| Nama Lengkap                   | NIM         |
+|-------------------------------|-------------|
+| I Nyoman Ari Parwata          | 2301010002  |
+| Anak Agung Rama Dwi Saputra   | 2301010021  |
+| I Komang Swastika             | 2301010057  |
+
 
 📘 **Kelas** : Sistem Informasi Pagi 1
 
